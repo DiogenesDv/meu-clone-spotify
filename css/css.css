@@ -40,10 +40,19 @@ nav.navbar-transparent{
     background: white;
     margin: 10px 15px;
 }
+
+#botaohamburguer{
+    margin-right: 20px;
+}
+
+#logo{
+    margin-left: 20px;
+}
 /***Layout***/
 html, body, #home{
     /*border: 2px solid red;*//*PARA POder deixar o texto centralizado é preciso deixar o as tags html,body e #home com 100% da tela*/
     height: 100%;
+    overflow-x: hidden;/*Esconder barra de rolagem Horizontal*/
 }
 
 body{
@@ -86,6 +95,44 @@ body{
     color: #ff4169;
 }
 
+/***Formatação do CONTEÚDO***/
+
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos{
+    background: white;
+}
+
+#servicos h2, h3{/*h2 e h3 so terao essa cores dentro das tag que terao a classe #servicos*/
+    color: #7c25f8;
+}
+
+#recursos h3{/*h2 e h3 so terao essa cores dentro das tag que terao a classe #servicos*/
+    color: #9bf0e1;
+}
+
+#recursos{/*h2 e h3 so terao essa cores dentro das tag que terao a classe #servicos*/
+    color: white;/*Os textos ficarao Branco*/
+}
+
+#recursos h2{/*h2 e h3 so terao essa cores dentro das tag que terao a classe #servicos*/
+    color: white;
+}
+
+.albuns{
+    padding: 10px 0px;
+}
+
+.rotacionar{/*PARA ROTACIONAR UMA DIV*/
+    transform: rotate(22deg);
+    padding-left: 80px;
+    -ms-transform: rotate(22deg);/*IE 9*/
+    -webkit-transform: rotate(22deg);/*Chrome, Safari, Opera*/
+}
+
 /***Tipografia da #home***/
 h1{
     font-weight: 900px;/*Tamanho das letras*/
@@ -93,6 +140,20 @@ h1{
     margin-bottom: 50px;
     color: white;
 }
+
+h2{
+    font-size: 3em;
+    font-weight: 700px;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700px;
+    letter-spacing: -0.04em;
+}
+
+
 
 /***Media Query serve para padronizar a visualizao dos ocnetudo de acordo com o tamnaho da tela***/
 
@@ -129,4 +190,5 @@ h1{
     h1{
         font-size: 7em;
     }
+    
  }
