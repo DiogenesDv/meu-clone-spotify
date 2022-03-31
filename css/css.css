@@ -71,7 +71,7 @@ body{
 }
 
 .btn-custom{
-    color:white;
+    color:rgba(255, 255, 255, 0.967);
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
