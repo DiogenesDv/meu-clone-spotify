@@ -41,6 +41,7 @@ nav.navbar-transparent{
     margin: 10px 15px;
 }
 
+
 #botaohamburguer{
     margin-right: 20px;
 }
@@ -96,7 +97,6 @@ body{
 }
 
 /***Formatação do CONTEÚDO***/
-
 .caixa{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -131,6 +131,61 @@ body{
     padding-left: 80px;
     -ms-transform: rotate(22deg);/*IE 9*/
     -webkit-transform: rotate(22deg);/*Chrome, Safari, Opera*/
+}
+
+/***RODAPE***/
+footer{
+     background: black;
+     padding: 50px 0px 20px 0px;
+     color: #fff;
+     position: relative;/*Fixa o footer sobre a posicao que esta*/
+     
+}
+#logo-rodape{
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.9em;
+    margin-bottom: -5px;
+    margin-top: 15px;
+    text-align: center;   
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.9em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;   
+}
+footer ul li{
+    float: right;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.redes:hover{
+    background: #9bf0e1;
+    border-radius: 10px;
+}
+
+.divisor-rodape{
+    float: left;
+    width: 2px;
+    height: 150px;
+    background: white;
+    margin: 10px 15px;
 }
 
 /***Tipografia da #home***/
